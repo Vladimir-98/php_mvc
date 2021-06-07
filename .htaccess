@@ -1,0 +1,20 @@
+RewriteEngine On
+RewriteRule ^index   index.php?act=index&%{QUERY_STRING}
+RewriteRule ^cars   index.php?act=cars&%{QUERY_STRING}
+RewriteRule ^toregister   index.php?act=toregister&%{QUERY_STRING}
+RewriteRule ^auth   index.php?act=auth&%{QUERY_STRING}
+RewriteRule ^logout   index.php?act=logout&%{QUERY_STRING}
+RewriteRule ^profile   index.php?act=profile&%{QUERY_STRING}
+RewriteRule ^ajaxAuth   index.php?act=ajaxAuth&%{QUERY_STRING}
+RewriteRule ^saveuser   index.php?act=saveuser&%{QUERY_STRING}
+RewriteRule ^savepassword   index.php?act=savepassword&%{QUERY_STRING}
+RewriteRule ^uploadava   index.php?act=uploadava&%{QUERY_STRING}
+RewriteRule ^toaddservice   index.php?act=toaddservice&%{QUERY_STRING}
+RewriteRule ^detailcar   index.php?act=detailcar&%{QUERY_STRING}
+RewriteRule ^tosaveservice   index.php?act=tosaveservice&%{QUERY_STRING}
+RewriteRule ^todeleteservice   index.php?act=todeleteservice&%{QUERY_STRING}
+RewriteRule ^toaddreviews   index.php?act=toaddreviews&%{QUERY_STRING}
+RewriteRule ^getallreviews   index.php?act=getallreviews&%{QUERY_STRING}
+RewriteRule ^getallservices   index.php?act=getallservices&%{QUERY_STRING}
+RewriteRule ^searchresult   index.php?act=searchresult&%{QUERY_STRING}
+RewriteRule ^getnumpage   index.php?act=getnumpage&%{QUERY_STRING}
